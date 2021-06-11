@@ -1,0 +1,7 @@
+# Redis database connection with a optional password authentication
+redis:
+  hostname: "localhost"
+  port: 6379
+  # password: p4ssw0rd
+messages:
+  broadcast-message: "[DiscordBridge <%timestamp%>] %username%: %message%"
